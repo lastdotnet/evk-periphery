@@ -6,7 +6,7 @@
     "rev": "b2fd6e699ee20bcfe7459f375b3cee5d2fa53345"
   },
   "lib/euler-price-oracle": {
-    "rev": "ffc3cb82615fc7d003a7f431175bd1eaf0bf41c5"
+    "rev": "5797e768102ddf2e3ee9c09608919a01253bdef9"
   },
   "lib/euler-swap": {
     "rev": "81cf6dc988468fd56f690e6bc0e338a5be02d034"

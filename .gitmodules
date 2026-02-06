@@ -1,6 +1,3 @@
-[submodule "lib/euler-price-oracle"]
-	path = lib/euler-price-oracle
-	url = https://github.com/euler-xyz/euler-price-oracle
 [submodule "lib/fee-flow"]
 	path = lib/fee-flow
 	url = https://github.com/euler-xyz/fee-flow
@@ -37,3 +34,6 @@
 [submodule "lib/euler-earn"]
 	path = lib/euler-earn
 	url = https://github.com/euler-xyz/euler-earn
+[submodule "lib/euler-price-oracle"]
+	path = lib/euler-price-oracle
+	url = https://github.com/lastdotnet/euler-price-oracle
