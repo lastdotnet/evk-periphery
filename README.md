@@ -118,6 +118,21 @@ Contracts managing the signing and verification of terms of use.
 
 Fork tests require `.env` file with `FORK_RPC_URL` variable set to a provider with archive node support, like Alchemy.
 
+### Submodules
+
+`lib/euler-price-oracle` pins `lib/redstone-oracles-monorepo` at commit `3d98ce3c0c7493537cfdcc3eb65440f72d780d04`. If recursive submodule update fails with a missing redstone commit (e.g. `2dc8e9a...`), run:
+
+```bash
+./script/update-submodules.sh
+```
+
+or manually:
+
+```bash
+git submodule update --init lib/euler-price-oracle
+cd lib/euler-price-oracle && git submodule update --init lib/redstone-oracles-monorepo && cd ../..
+```
+
 ## Safety
 
 This software is experimental and is provided "as is" and "as available".
