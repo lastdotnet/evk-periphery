@@ -34,6 +34,7 @@
 [submodule "lib/euler-earn"]
 	path = lib/euler-earn
 	url = https://github.com/euler-xyz/euler-earn
+	branch = development
 [submodule "lib/euler-price-oracle"]
 	path = lib/euler-price-oracle
 	url = https://github.com/lastdotnet/euler-price-oracle
